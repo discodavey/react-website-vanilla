@@ -1,0 +1,14 @@
+.navigation {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-bottom: 1px solid #888;
+
+}
+
+.left-column {
+  grid-column: 1/2;
+}
+
+.right-column {
+  grid-column: 2/3;
+}
