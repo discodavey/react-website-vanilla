@@ -10,10 +10,9 @@ function Navbar() {
         <img src={logo} className="logo" alt="Impulse Radio" />
       </div>
       <div className="right-column">
-        <Link to="/"> Home </Link>
-        <Link to="/menu"> Menu </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/contact"> Contact </Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   )
